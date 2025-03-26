@@ -1,0 +1,50 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    margin: 0;
+    padding: 5%;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+video{
+    width: 100%;
+    border: 2px solid #DDD;
+    border-radius: 10px;
+}
+
+.canvas-container {
+    display: flex;
+    flex-wrap: wrap;         
+    gap: 10px;               
+    justify-content: center; 
+    align-items: center;    
+    margin-top: 20px;        
+    width: 100%;             
+    padding: 10px;           
+}
+
+canvas {
+    display: none;
+    width: 50%;
+    margin-top: 10px;
+    border: 2px solid #DDD;
+    border-radius: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: violet;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
